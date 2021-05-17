@@ -1,6 +1,10 @@
 .row{
     margin-left: 20px;
 }
+.row_title{
+    color: #fff;
+    font-size:1.5em;
+}
 .row_posters{
     display:flex;
     overflow-y: hidden;
