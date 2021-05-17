@@ -23,7 +23,7 @@ const Banner = () => {
          return str?.length > n ? str.substr(0,n-1)+ "..." : str;
      }
     return (
-        <header className="banner" style={{backgroundImage:`url(${base_url}${movie?.backdrop_path})`}} > 
+        <header className="banner" style={{ backgroundSize: "cover",backgroundImage:`url(${base_url}${movie?.backdrop_path})`,backgroundPosition: "center center "}} > 
         <div className="banner_contents">
         <h1 className="banner_title">{movie?.name || movie?.title || movie?.orinal_name}</h1>
            <div className="banner_buttons">

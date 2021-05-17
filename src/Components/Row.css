@@ -30,6 +30,7 @@
 }
 .row_posterLarge{
     max-height: 250px;
+    cursor: auto;
 }
 .row_posterLarge:hover{
     transform: scale(1.09);
