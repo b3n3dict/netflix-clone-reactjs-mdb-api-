@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './Components/Banner';
+import Nav from './Components/Nav';
 import Row from './Components/Row';
 import requests from './requests';
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
      
     {/* navbar */}
+    <Nav />
     {/* banner */}
     <Banner />
     {/* row */}
